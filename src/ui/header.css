@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+.header-items{
+background-color: antiquewhite;
+
+}
+
+ul.header-items {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+li.header-item {
+    padding: 17px;
+    cursor: pointer;
+    background: #c2dfd717;
+    margin-right: 3px;
+    /* border-radius: 3px; */
+    font-weight: 600;
+}
+
+li.header-item:hover {
+    background: #ffffff66;
+    color: #e72323;
+}
+
+.main-body-container {
+    height: calc(100vh - 97px);
+}
